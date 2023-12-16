@@ -8,12 +8,12 @@ let data = [
   ];
   
   // 1. Print Developers
-  function printDeveloper() {
+  function printDeveloper(data) {
     data.forEach((a)=>{
         console.log(a);
     })
   }
-  printDeveloper();
+  printDeveloper(data);
   
   // 2. Add Data
   function addData(data) {
